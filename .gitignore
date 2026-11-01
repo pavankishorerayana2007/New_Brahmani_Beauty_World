@@ -1,0 +1,17 @@
+# secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+
+# dependencies and build output
+node_modules/
+.vercel/
+dist/
+
+# logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
